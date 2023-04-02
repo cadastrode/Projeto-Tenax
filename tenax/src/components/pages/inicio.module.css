@@ -1,0 +1,41 @@
+
+.centra{
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    margin: 20px auto;
+    flex-wrap: wrap;
+    min-height: 75%;
+}.centra h1{
+    font-size: 2.5rem;
+    margin-bottom: .5rem;
+}
+.pspan{
+    font-family:serif;
+    font-size: 2.5rem;
+    color: #fff;
+    background-color: #154589b2 ;
+    padding: .0rem 1.5rem;
+    font-weight: 600;
+    border-radius: 3px;
+    
+}
+.pspan:hover{
+    color: #f7f0ed;
+    background-color: #154589b4 ;
+    padding: .0rem 1.4rem;
+    font-size: 2.2rem;
+}
+.ch1{
+    color: rgba(190,87,132,255);
+}
+p{
+    color: rgba(0, 0, 0, 0.74);
+    padding: .4rem;
+}
+.principal{
+    width: 40%;
+}

@@ -1,0 +1,25 @@
+{
+  "projetos": [],
+  "categorias": [
+      {
+          "id": 1,
+          "name": "Poupança"
+      },
+      {
+          "id": 2,
+          "name": "Investimento"
+      },
+      {
+          "id": 3,
+          "name": "Impréstimo"
+      },
+      {
+          "id": 4,
+          "name": "Cartões"
+      },
+      {
+          "id": 5,
+          "name": "Financiamentos"
+      }
+  ]
+}

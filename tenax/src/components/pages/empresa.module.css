@@ -1,0 +1,8 @@
+.centra{
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px auto;
+    flex-wrap: wrap;
+    min-height: 75%;
+}

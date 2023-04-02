@@ -1,0 +1,16 @@
+
+.controle_form{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+.controle_form label{
+    margin-bottom: .6rem;
+    font-weight:400;
+    color: rgba(190,87,132,255);
+}
+.controle_form select{
+    padding: .7rem;
+    border-radius: 0px;
+    border: none;
+}

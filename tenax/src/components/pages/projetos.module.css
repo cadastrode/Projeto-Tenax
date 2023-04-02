@@ -1,0 +1,21 @@
+.centra{
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px auto;
+    flex-wrap: wrap;
+    min-height: 75%;
+}
+.novop{
+    width: 450px;
+    margin: 0px auto;
+    padding: .3rem;
+}
+.novop h1{
+    margin-top: 3rem;
+    margin-bottom: .5rem ;
+    color: rgba(190,87,132,255);
+}
+.novop p{
+    color: rgba(0, 0, 0, 0.61);
+}

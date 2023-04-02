@@ -1,0 +1,28 @@
+footer{
+    width: 100%;
+    justify-content: space-between;
+    padding: .3rem;
+    background-color: rgba(190,87,132,255);
+    text-align: center;
+}
+span{
+    padding: 7px;
+    margin: 0px auto;
+    font-size: 1.7rem;
+    color: azure;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.171);
+    transition: .6s;
+    cursor: pointer;
+}
+span:hover{
+    font-size: 2.5rem;
+    color: #f1cd32;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.171);
+}
+.copy{
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 2px;
+    color: #f1cd32;
+}
+
