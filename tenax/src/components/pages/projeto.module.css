@@ -1,0 +1,12 @@
+.centra{
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    margin: 10px auto;  
+    min-height: 75%;
+}
+.arruma{
+    display: block;
+}

@@ -1,6 +1,6 @@
 import {useState, useEffect} from 'react'
 import Input from '../form/input'
-import{Link} from 'react-router-dom'
+
 
 import Select from '../form/select'
 import Submit from '../form/submit'
@@ -28,6 +28,7 @@ export default function Pformulario({handleSubmit, btntext, projectData}){
        e.preventDefault()
         handleSubmit(projeto)
         console.log(projeto)
+       
    }
     function handleChange(e){
         setProjeto({...projeto, [e.target.name]: e.target.value})

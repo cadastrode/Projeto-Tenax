@@ -1,11 +1,11 @@
-import {unstable_HistoryRouter } from 'react-router-dom'
+import{useNavigate} from 'react-router-dom'
 import Pformulario from '../projetos/pform'
 import styles from './projetos.module.css'
 
 
 export default function Projetos(){
 
- 
+      const history = useNavigate()
 
       function criarProjetos(projeto){
 
@@ -21,7 +21,7 @@ export default function Projetos(){
         }).then((res => res.json())
             
         ).then((data)=>{
-            
+          history('/projeto', {mensagem: 'Projeto adicionado com sucesso'})
         }).catch(
             (err=> console.log(err))
         )

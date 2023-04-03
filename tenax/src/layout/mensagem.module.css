@@ -1,0 +1,27 @@
+.mensagem{
+    width: 50%;
+    margin: 0px auto;
+    border: 1px solid black;
+    padding: 1rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    border-radius: 5px;
+    transition: .7s;
+}
+.alerta{
+    color: #9ca51d;
+ background-color: rgb(253, 255, 240);
+ border-color: #bbb85e77;
+ transition: .7s;
+
+}
+.sucesso{
+ color: #155724;
+ background-color: rgba(86, 209, 86, 0.37);
+ border-color: #7ba184;
+}
+.erro{
+    color: #721c24;
+    background-color: rgba(214, 170, 170, 0.384);
+    border-color: #c9b7b7;
+}
